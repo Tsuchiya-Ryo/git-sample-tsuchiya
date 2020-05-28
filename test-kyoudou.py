@@ -5,6 +5,6 @@ class Car:
     
     def drive(self, km):
         self.mileage += km
-        msg = f"{km}kmドライブしました。総距離は{self.mileage}kmです。"
+        msg = f"{km}km走りました。総距離は{self.mileage}kmです。"
         print(msg)
 
